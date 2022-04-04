@@ -1,0 +1,562 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background: #fff;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1620px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	font-size: 36px;
+	font-family: 'Lato', sans-serif;
+}
+
+.menu {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	margin: auto;
+}
+
+.link {
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	margin-right: 44px;
+}
+
+.link:last-child {
+	margin-right: 0;
+}
+
+.link:after {
+	content: "";
+	width: 100%;
+	height: 3px;
+	background-color: #000;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+}
+
+.link:hover:after {
+	display: block;
+}
+
+
+.sign {
+	font-family: 'Lato', sans-serif;
+	width: 142px;
+	height: 64px;
+	background-color: #fff;
+	font-size: 18px;
+	margin: 0 16px 0 0;
+	border: 1px solid #000;
+	border-radius: 10px;
+	color: #000;
+}
+
+.get {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	width: 142px;
+	height: 64px;
+	border: 1px solid #008000;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #008000;
+}
+
+.design {
+	width: 100%;
+	content: "";
+}
+
+.circle {
+	position: absolute;
+	margin-left: -266px;
+	margin-top: -364px;
+	width: 585px;
+	height: 585px;
+	border: 1px solid #008000;
+	border-radius: 50%;
+}
+
+.circle2 {
+	position: absolute;
+	margin-left: -321px;
+	margin-top: -309px;
+	width: 585px;
+	height: 585px;
+	border: 1px solid #008000;
+	border-radius: 50%;
+}
+
+.intro {
+	font-family: 'Spartan', sans-serif;
+	text-align: center;
+}
+
+.intro_logo {
+	max-width: 923px;
+	margin: 0 auto;
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 78px;
+	padding-top: 127px;
+}
+
+.invest {
+	color: #008000;
+}
+
+.description_intro {
+	max-width: 725px;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-top: 69px;
+	line-height: 180%;
+	padding-bottom: 48px;
+}
+
+.get_email {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.email {
+	width: 502px;
+	padding-left: 25px;
+	font-family: 'Spartan', sans-serif;
+	font-size: 18px;
+	height: 70px;
+	border-color: #e9ebeb;
+	background-color: #e9ebeb;
+	border-radius: 10px;
+	opacity:  100%;	
+	outline: 0;
+	box-shadow: none;
+	border: 2px solid #e9ebeb;
+}
+
+.email::-webkit-input-placeholder {
+	color:#000;
+	opacity: 100%;
+}
+
+.get2 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 18px;
+	width: 163px;
+	height: 64px;
+	border: 1px solid #008000;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #008000;
+	position: absolute;
+	margin-left: 360px;
+}
+
+.container2 {
+	max-width: 1420px;
+	margin: 0 auto;
+}
+
+.company {
+	margin-top: 208px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.MarketWatch {
+	width: 14.08%;
+}
+
+.Forbes {
+	width: 12.32%;
+}
+
+.BusinessIns {
+	width: 12.32%;
+}
+
+.Fidelity {
+	width: 18.31%;
+}
+
+.Wired {
+	width: 12.39%;
+}
+
+.card_1 {
+	margin-top: 195px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info_1 {
+	width: 40.42%;
+	align-items: center;
+}
+
+.head_info_1, .head_info_2, .head_info_3, .head_info_4 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 64px;
+	font-weight: bold;
+	line-height: 72px;
+}
+
+.main_info_1, .main_info_2, .main_info_3, .main_info_4 {
+	font-family: 'Spartan', sans-serif;
+	margin-top: 50px;
+	font-size: 18px;
+	line-height: 177%;
+}
+
+.image_1 {
+	width: 52.82%;
+	height: 936px;
+	background-color: #e6f2e6;
+	border-radius: 20px;
+}
+
+.Human_1 {
+	width: 88%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 166px;
+	border-radius: 20px;
+}
+
+.cards_info_1 {
+	width: 85.37%;
+	margin-top: 30px;
+}
+
+.card_1_info_1 {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 48px;
+}
+
+.phone_1 {
+	width: 110px;
+	height: 110px;
+}
+
+.text {
+	margin-left: 32px;
+}
+
+.bold {
+	font-family: 'Spartan', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.regular {
+	font-family: 'Spartan', sans-serif;
+	font-size: 18px;
+}
+
+.card_2 {
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.image_2 {
+	width: 48.87%;
+	height: 760px;
+	background-color: #e6f2e6;
+	border-radius: 20px;
+}
+
+.Human_2 {
+	border-radius: 20px;
+	width: 88.47%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 99px;
+}
+
+.info_2 {
+	width: 42.25%;
+	align-items: center;
+}
+
+.head_info_2 {
+	width: 93.83%;
+	font-size: 70px;
+	line-height: 78px;
+}
+
+.main_info_2 {
+	width: 93.83%;
+	margin-top: 32px;
+}
+
+.akkor_1 {
+ 	background: #f2f9f2;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.akkor_2::-webkit-details-marker{display:none;}
+.akkor_2::-moz-list-bullet{list-style-type:none;}
+.akkor_2::marker{display:none;} 
+.akkor_2,.akkor_3 {
+	padding: 30.6px 0;
+	padding-left: 30px;
+	font-family: 'Spartan', sans-serif;
+    display:block;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 48px;
+    position: relative;
+}
+
+.akkor_2:before,.akkor_3:before {
+  right: 33px;
+  background: url("image/vector.png");
+  width: 24px;
+  height: 24px;  
+  content: "";
+  position: absolute;
+  transition: transform .5s;
+}
+
+.akkor_3 {
+	margin: 0 0 0 0;
+}
+
+.regular_2 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 18px;
+	padding: 20px 0 20px 30px;
+}
+
+.card_3 {
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info_3 {
+	width: 39.64%;
+}
+
+.head_info_3 {
+	font-size: 70px;
+	line-height: 78px;
+}
+
+.main_info_3 {
+	margin-top: 32px;
+}
+
+.cards_info_3 {
+	margin-top: 48px;
+}
+
+.card_1_info_3 {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 48px;
+}
+
+.number {
+	font-family: 'Spartan', sans-serif;
+	font-weight: bold;
+	width: 64px;
+	font-size: 36px;
+	padding-top: 14px;
+	border-radius: 50%;
+	color: #008000;
+	background-color: #f2f9f2;
+	text-align: center;
+}
+
+.text_2 {
+	font-family: 'Spartan', sans-serif;
+	margin-left: 50px;
+	font-size: 20px;
+	padding: 19.6px 0;
+}
+
+.learn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Spartan', sans-serif;
+	font-size: 18px;
+	padding-top: 9px;
+	width: 222px;
+	height: 64px;
+	border: 1px solid #008000;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #008000;
+}
+
+.image_3 {
+	width: 47.89%;
+}
+
+.Human_3 {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.card_4 {
+	margin-top: 200px;
+}
+
+.info_4 {
+	text-align: center;
+}
+
+.head_info_4 {
+	font-size: 70px;
+	line-height: 78px;
+}
+
+.main_info_4 {
+	max-width: 563px;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+
+.cards_info_4 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 48px;
+}
+
+.card_1_info_4 {
+	background-color: #f2f9f2;
+	width: 48.31%;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 48px;
+	border-radius: 20px;
+}
+
+.Human_4 {
+	width: 44.02%;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.text_4 {
+	margin: 32px;
+	width: 46.65%;
+	display: grid;
+	align-content: stretch;
+	position: relative;
+}
+
+.signature {
+	font-family: 'Spartan', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	position: absolute;
+	bottom: 0;
+}
+
+.view_all {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 200px;
+}
+
+
+.download_info {
+	margin: 0 auto;
+	padding-top: 72px;
+	width: 54.05%;
+	text-align: center;
+	font-family: 'Spartan', sans-serif;
+	font-size: 56px;
+	font-weight: Bold;
+	line-height: 62.72px;
+}
+
+.download_icon {
+	margin: 0 auto;
+	margin-top: 48px;
+	width: 25.89%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.google_play {
+	width: 172px;
+}
+
+.appstore {
+	width: 168px;
+}
+
+.card_5 {
+	display: flex;
+	justify-content: center;
+	background-color: #f2f9f2;
+	border-radius: 20px;
+	overflow: hidden;
+	padding-bottom: 65px;	
+
+}
+
+.download {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+
+.circle_3 {
+	position: absolute;
+
+}
+
+.circle_4 {
+	position: absolute;
+
+}
+
+@media(max-width: 1620px){
+	.container{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.container2{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+@media (max-width: 1024px) {
+
+}
