@@ -281,71 +281,71 @@ body {
 }
 
 .card_2 {
-	margin-top: 200px;
+	margin-top: 10.42vw;
 	display: flex;
 	justify-content: space-between;
 }
 
 .image_2 {
-	width: 48.87%;
-	height: 760px;
+	width: 36.15vw;
+	height: 39.6vw;
 	background-color: #e6f2e6;
 	border-radius: 20px;
 }
 
 .Human_2 {
 	border-radius: 20px;
-	width: 88.47%;
+	width: 32vw;
 	display: block;
 	margin: 0 auto;
-	margin-top: 99px;
+	margin-top: 5.16vw;
 }
 
 .info_2 {
-	width: 42.25%;
+	width: 31.25vw;
 	align-items: center;
 }
 
 .head_info_2 {
-	width: 93.83%;
-	font-size: 70px;
-	line-height: 78px;
+	width: 29.7vw;
+	font-size: 3.65vw;
+	line-height: 4vw;
 }
 
 .main_info_2 {
-	width: 93.83%;
-	margin-top: 32px;
+	width: 29.32vw;
+	margin-top: 1.67vw;
 }
 
 .card_1_info_2 {
-	margin-top: 48px;
+	margin-top: 2.5vw;
 }
 
 .akkor_1 {
  	background: #f2f9f2;
 	width: 100%;
 	border-radius: 10px;
-	margin-bottom: 24px;
+	margin-bottom: 1.25vw;
 }
 
 .akkor_2::-webkit-details-marker{display:none;}
 .akkor_2::-moz-list-bullet{list-style-type:none;}
 .akkor_2::marker{display:none;} 
 .akkor_2,.akkor_3 {
-	padding: 30.6px 0;
-	padding-left: 30px;
+	padding: 1.6vw 0;
+	padding-left: 1.6vw;
 	font-family: 'Spartan', sans-serif;
     display:block;
-    font-size: 24px;
+    font-size: 1.25vw;
     cursor: pointer;
     position: relative;
 }
 
 .akkor_2:before,.akkor_3:before {
-  right: 33px;
+  right: 1.72vw;
   background: url("image/vector.png");
-  width: 24px;
-  height: 24px;  
+  width: 1.25vw;
+  height: 1.25vw;  
   content: "";
   position: absolute;
   transition: transform .5s;
@@ -357,12 +357,12 @@ body {
 
 .regular_2 {
 	font-family: 'Spartan', sans-serif;
-	font-size: 18px;
-	padding: 20px 0 20px 30px;
+	font-size: 1vw;
+	padding: 1vw 0 1vw 1.56vw;
 }
 
 .card_3 {
-	margin-top: 200px;
+	margin-top: 10.42vw;
 	display: flex;
 	justify-content: space-between;
 }
@@ -434,7 +434,7 @@ body {
 }
 
 .card_4 {
-	margin-top: 200px;
+	margin-top: 10.42vw;
 }
 
 .info_4 {
@@ -442,20 +442,20 @@ body {
 }
 
 .head_info_4 {
-	font-size: 70px;
-	line-height: 78px;
+	font-size: 3.65vw;
+	line-height: 4.06vw;
 }
 
 .main_info_4 {
 	max-width: 563px;
 	margin: 0 auto;
-	margin-top: 32px;
+	margin-top: 1.67vw;
 }
 
 .cards_info_4 {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 48px;
+	margin-top: 2.5vw;
 }
 
 .card_1_info_4 {
@@ -501,7 +501,7 @@ body {
 	width: 54.05%;
 	text-align: center;
 	font-family: 'Spartan', sans-serif;
-	font-size: 56px;
+	font-size: 2.92vw;
 	font-weight: Bold;
 	line-height: 62.72px;
 }
@@ -509,17 +509,17 @@ body {
 .download_icon {
 	margin: 0 auto;
 	margin-top: 48px;
-	width: 25.89%;
+	width: 18.96vw;
 	display: flex;
 	justify-content: space-between;
 }
 
 .google_play {
-	width: 172px;
+	width: 8.96vw;
 }
 
 .appstore {
-	width: 168px;
+	width: 8.75vw;
 }
 
 .card_5 {
@@ -539,13 +539,20 @@ body {
 	align-items: center;
 }
 
-
+.circle_download {
+	display: flex;
+	justify-content: center;
+}
 
 .circle_3 {
+	margin-left: 3vw;
+	width: 33.33vw;
 	position: absolute;
 }
 
 .circle_4 {
+	margin-left: 3vw;
+	width: 33.33vw;
 	position: absolute;
 
 }
@@ -553,13 +560,13 @@ body {
 .footer {
 	width: 100%;
 	background-color: #f2f9f2;
-	margin-top: 200px;
-	padding-top: 68px;
-	padding-bottom: 56px;
+	margin-top: 10.42vw;
+	padding-top: 3.5vw;
+	padding-bottom: 2.9vw;
 }
 
 .container3 {
-	width: 84.375%;
+	width: 84.375vw;
 	max-width: 1620px;
 	margin: 0 auto;
 }
@@ -567,7 +574,7 @@ body {
 .info_footer {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 100px;
+	margin-bottom: 5.21vw;
 }
 
 .title_footer {
@@ -575,12 +582,12 @@ body {
 }
 
 .farm {
-	width: 352px;
+	width: 18.33vw;
 }
 
 .img_footer {
 	padding-right: 10px;
-	width: 23px;
+	width: 1.2vw;
 }
 
 .main_farm_footer {
