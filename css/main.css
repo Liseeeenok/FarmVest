@@ -2,12 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	width: 1920px;
+	max-width: 1920px;
 }
 
 .header {
 	background: #fff;
-	width: 100%;
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
@@ -27,12 +26,12 @@ body {
 }
 
 .title {
-	font-size: 36px;
+	font-size: 2vw;
 	font-family: 'Lato', sans-serif;
 }
 
 .menu {
-	font-size: 18px;
+	font-size: 1vw;
 	font-family: 'Lato', sans-serif;
 	margin: auto;
 }
@@ -66,10 +65,10 @@ body {
 
 .sign {
 	font-family: 'Lato', sans-serif;
-	width: 142px;
-	height: 64px;
+	width: 7.4vw;
+	height: 4vw;
 	background-color: #fff;
-	font-size: 18px;
+	font-size: 1vw;
 	margin: 0 16px 0 0;
 	border: 1px solid #000;
 	border-radius: 10px;
@@ -78,9 +77,9 @@ body {
 
 .get {
 	font-family: 'Lato', sans-serif;
-	font-size: 18px;
-	width: 142px;
-	height: 64px;
+	font-size: 1vw;
+	width: 7.4vw;
+	height: 4vw;
 	border: 1px solid #008000;
 	border-radius: 10px;
 	color: #fff;
@@ -94,20 +93,20 @@ body {
 
 .circle {
 	position: absolute;
-	margin-left: -266px;
-	margin-top: -364px;
-	width: 585px;
-	height: 585px;
+	margin-left: -14vw;
+	margin-top: -21vw;
+	width: 31vw;
+	height: 31vw;
 	border: 1px solid #008000;
 	border-radius: 50%;
 }
 
 .circle2 {
 	position: absolute;
-	margin-left: -321px;
-	margin-top: -309px;
-	width: 585px;
-	height: 585px;
+	margin-left: -17vw;
+	margin-top: -19vw;
+	width: 31vw;
+	height: 31vw;
 	border: 1px solid #008000;
 	border-radius: 50%;
 }
@@ -120,10 +119,10 @@ body {
 .intro_logo {
 	max-width: 923px;
 	margin: 0 auto;
-	font-size: 70px;
+	font-size: 3.64vw;
 	font-weight: bold;
-	line-height: 78px;
-	padding-top: 127px;
+	line-height: 4vw;
+	padding-top: 7vw;
 }
 
 .invest {
@@ -131,10 +130,10 @@ body {
 }
 
 .description_intro {
-	max-width: 725px;
+	max-width: 38vw;
 	margin: 0 auto;
-	font-size: 18px;
-	padding-top: 69px;
+	font-size: 1vw;
+	padding-top: 3.6vw;
 	line-height: 180%;
 	padding-bottom: 48px;
 }
@@ -711,6 +710,12 @@ body {
 	display: block;
 }
 
+@media (max-width: 1920px) {
+	.container {
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+}
 @media (max-width: 1024px) {
 
 }
