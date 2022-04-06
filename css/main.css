@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
+	width: 1920px;
 }
 
 .header {
@@ -709,22 +710,6 @@ body {
 .point_menu:hover:after {
 	display: block;
 }
-
-@media(max-width: 1620px){
-	.container{
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-	.container2{
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-	.container3{
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-}
-
 
 @media (max-width: 1024px) {
 
