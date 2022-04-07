@@ -497,18 +497,18 @@ body {
 
 .download_info {
 	margin: 0 auto;
-	padding-top: 72px;
-	width: 54.05%;
+	padding-top: 3.75vw;
+	width: 39.6vw;
 	text-align: center;
 	font-family: 'Spartan', sans-serif;
 	font-size: 2.92vw;
 	font-weight: Bold;
-	line-height: 62.72px;
+	line-height: 3.27vw;
 }
 
 .download_icon {
 	margin: 0 auto;
-	margin-top: 48px;
+	margin-top: 2.5vw;
 	width: 18.96vw;
 	display: flex;
 	justify-content: space-between;
@@ -528,7 +528,7 @@ body {
 	background-color: #f2f9f2;
 	border-radius: 20px;
 	overflow: hidden;
-	padding-bottom: 65px;	
+	padding-bottom: 3.39vw;	
 
 }
 
@@ -545,14 +545,12 @@ body {
 }
 
 .circle_3 {
-	margin-left: 3vw;
-	width: 33.33vw;
+	width: 30.47vw;
 	position: absolute;
 }
 
 .circle_4 {
-	margin-left: 3vw;
-	width: 33.33vw;
+	width: 30.47vw;
 	position: absolute;
 
 }
@@ -605,26 +603,26 @@ body {
 }
 
 .subscribe {
-	width: 533px;
+	width: 27.76vw;
 }
 
 .follow {
-	width: 363px;
+	width: 18.90vw;
 	display: flex;
 	justify-content: space-between;
 }
 
 .follow_us {
-	width: 176px;
+	width: 9.17vw;
 }
 
 .call_us {
-	width: 136px;
+	width: 7.08vw;
 }
 
 .title_follow {
 	font-family: 'Spartan', sans-serif;
-	font-size: 16px;
+	font-size: 0.83vw;
 	font-weight: bold;
 	margin-bottom: 24px;
 }
@@ -637,9 +635,9 @@ body {
 
 .fa-instagram {
 	text-align: center;
-	width: 48px;
+	width: 2.5vw;
 	padding: 8px 0px;
-	font-size: 32px;
+	font-size: 1.67vw;
 	background-color: #008000;
 	border-radius: 50%;
 	color: #f2f9f2;
@@ -647,15 +645,15 @@ body {
 
 .fa-facebook {
 	text-align: center;
-	font-size: 48px;
+	font-size: 2.5vw;
 	color: #008000;
 }
 
 .fa-twitter {
 	text-align: center;
-	width: 48px;
+	width: 2.5vw;
 	padding: 8px 0px;
-	font-size: 32px;
+	font-size: 1.67vw;
 	background-color: #008000;
 	border-radius: 50%;
 	color: #f2f9f2;
