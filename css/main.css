@@ -266,16 +266,22 @@ body {
 }
 
 .text {
+	display: flex;
+	flex-direction: column;
 	margin-left: 1.7vw;
+	align-content: space-between;
 }
 
 .bold {
+	margin-bottom: 0.83vw;
+	display: block;
 	font-family: 'Spartan', sans-serif;
 	font-size: 1vw;
 	font-weight: bold;
 }
 
 .regular {
+	display: block;
 	font-family: 'Spartan', sans-serif;
 	font-size: 0.94vw;
 }
@@ -589,17 +595,17 @@ body {
 }
 
 .main_farm_footer {
-	margin-top: 24px;
+	margin-top: 1.66vw;
 }
 
 .text_title_footer {
 	font-family: 'Spartan', sans-serif;
-	font-size: 22px;
+	font-size: 1.15vw;
 }
 
 .text_subscribe {
-	width: 438px;
-	margin-bottom: 24px;
+	width: 22.81vw;
+	margin-bottom: 1.25vw;
 }
 
 .subscribe {
@@ -624,7 +630,7 @@ body {
 	font-family: 'Spartan', sans-serif;
 	font-size: 0.83vw;
 	font-weight: bold;
-	margin-bottom: 24px;
+	margin-bottom: 1.25vw;
 }
 
 .icons_follow {
@@ -636,7 +642,7 @@ body {
 .fa-instagram {
 	text-align: center;
 	width: 2.5vw;
-	padding: 8px 0px;
+	padding: 0.42vw 0px;
 	font-size: 1.67vw;
 	background-color: #008000;
 	border-radius: 50%;
@@ -652,7 +658,7 @@ body {
 .fa-twitter {
 	text-align: center;
 	width: 2.5vw;
-	padding: 8px 0px;
+	padding: 0.42vw 0px;
 	font-size: 1.67vw;
 	background-color: #008000;
 	border-radius: 50%;
@@ -660,7 +666,7 @@ body {
 }
 
 .phone {
-	font-size: 16px;
+	font-size: 0.83vw;
 }
 
 .line_footer {
