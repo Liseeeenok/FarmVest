@@ -378,30 +378,30 @@ body {
 }
 
 .head_info_3 {
-	font-size: 70px;
-	line-height: 78px;
+	font-size: 3.65vw;
+	line-height: 4.06vw;
 }
 
 .main_info_3 {
-	margin-top: 32px;
+	margin-top: 1.67vw;
 }
 
 .cards_info_3 {
-	margin-top: 48px;
+	margin-top: 2.5vw;
 }
 
 .card_1_info_3 {
 	display: flex;
 	justify-content: flex-start;
-	margin-bottom: 48px;
+	margin-bottom: 2.5vw;
 }
 
 .number {
 	font-family: 'Spartan', sans-serif;
 	font-weight: bold;
-	width: 64px;
-	font-size: 36px;
-	padding-top: 14px;
+	width: 3.33vw;
+	font-size: 1.875vw;
+	padding-top: 0.73vw;
 	border-radius: 50%;
 	color: #008000;
 	background-color: #f2f9f2;
@@ -410,9 +410,9 @@ body {
 
 .text_2 {
 	font-family: 'Spartan', sans-serif;
-	margin-left: 50px;
-	font-size: 20px;
-	padding: 19.6px 0;
+	margin-left: 2.60vw;
+	font-size: 1.04vw;
+	padding: 1vw 0;
 }
 
 .learn {
@@ -420,10 +420,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Spartan', sans-serif;
-	font-size: 18px;
-	padding-top: 9px;
-	width: 222px;
-	height: 64px;
+	font-size: 1vw;
+	padding-top: 0.5vw;
+	width: 11.56vw;
+	height: 3.33vw;
 	border: 1px solid #008000;
 	border-radius: 10px;
 	color: #fff;
@@ -469,7 +469,7 @@ body {
 	width: 48.31%;
 	display: flex;
 	justify-content: flex-start;
-	margin-bottom: 48px;
+	margin-bottom: 2.5vw;
 	border-radius: 20px;
 }
 
@@ -479,7 +479,7 @@ body {
 }
 
 .text_4 {
-	margin: 32px;
+	margin: 1.67vw;
 	width: 46.65%;
 	display: grid;
 	align-content: stretch;
@@ -488,7 +488,7 @@ body {
 
 .signature {
 	font-family: 'Spartan', sans-serif;
-	font-size: 18px;
+	font-size: 1vw;
 	font-weight: 600;
 	position: absolute;
 	bottom: 0;
@@ -497,7 +497,7 @@ body {
 .view_all {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 200px;
+	margin-bottom: 10.42vw;
 }
 
 
@@ -590,7 +590,7 @@ body {
 }
 
 .img_footer {
-	padding-right: 10px;
+	padding-right: 0.52vw;
 	width: 1.2vw;
 }
 
@@ -675,12 +675,12 @@ body {
 	height: 1px;
 	background-color: #000;
 	opacity: 50%;
-	margin-bottom: 56px;
+	margin-bottom: 2.92vw;
 }
 
 .right {
 	font-family: 'Spartan', sans-serif;
-	font-size: 12px;
+	font-size: 0.625vw;
 }
 
 .podpis {
@@ -698,8 +698,8 @@ body {
 	color: #000;
 	position: relative;
 	font-family: 'Spartan', sans-serif;
-	font-size: 14px;
-	margin-right: 40px;
+	font-size: 0.73vw;
+	margin-right: 2.08vw;
 }
 
 .point_menu:last-child {
@@ -729,6 +729,10 @@ body {
 	.container2 {
 		margin-left: 13%;
 		margin-right: 13%;
+	}
+	.container3 {
+		margin-left: 8%;
+		margin-right: 8%;
 	}
 }
 @media (max-width: 1024px) {
