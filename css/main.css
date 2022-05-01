@@ -750,14 +750,17 @@ body {
 }
 
 @media (max-width: 767px) {
+	.circle {
+		wi
+	}
 	.intro_logo {
-	font-size: 6vw;
+	font-size: 10vw;
 	font-weight: bold;
-	line-height: 6.6vw;
+	line-height: 10.6vw;
 	}
 	.description_intro {
-	max-width: 55vw;
-	font-size: 1.8vw;
+	max-width: 66vw;
+  font-size: 2.8vw;
 	}
 	.email {
 	width: 55vw;
@@ -788,12 +791,13 @@ body {
 	}
 	.head_info_1 {
 		text-align: center;
-		font-size: 5vw;
+		font-size: 8vw;
+		line-height: 8.5vw;
 	}
 	.main_info_1 {
 		text-align: center;
-		font-size: 1.8vw;
-    line-height: 2vw;
+		font-size: 2.5vw;
+    line-height: 3vw;
 	}
 	.cards_info_1 {
     width: inherit;
@@ -825,17 +829,17 @@ body {
 		width: inherit;
 	}
 	.head_info_2 {
-		font-size: 5vw;
+		font-size: 8vw;
 		width: inherit;
 		text-align: center;
 		margin-top: 2vw;
-		line-height: 5.5vw;
+		line-height: 8.5vw;
 	}
 	.main_info_2 {
 		width: inherit;
 		text-align: center;
-		font-size: 1.8vw;
-    line-height: 2vw;
+		font-size: 2.5vw;
+    line-height: 3vw;
 	}
 	.akkor_1 {
 		margin-bottom: 3vw;
@@ -852,5 +856,58 @@ body {
 	}
 	.regular_2 {
 		font-size: 1.8vw;
+	}
+	.card_3 {
+		flex-direction: column-reverse;
+	}
+	.image_3 {
+		width: inherit;
+		display: flex;
+		justify-content: center;
+	}
+	.Human_3 {
+		width: 44vw;
+	}
+	.info_3 {
+		width: inherit;
+	}
+	.head_info_3 {
+		text-align: center;
+		margin-top: 2vw;
+		font-size: 8vw;
+		line-height: 8.5vw;
+	}
+	.main_info_3 {
+		margin-top: 2.3vw;
+		text-align: center;
+		font-size: 2.8vw;
+		line-height: 3vw;
+	}
+	.cards_info_3 {
+		width: inherit;
+	}
+	.number {
+		width: 9.7vw;
+		height: 9.7vw;
+		font-size: 9vw;
+	}
+	.text_2 {
+		font-size: 3.8vw;
+		margin-top: 3vw;
+	}
+	.learn_2 {
+		display: flex;
+		justify-content: center;
+	}
+	.learn {
+		font-size: 2.8vw;
+		width: 22vw;
+		height: 6vw;
+	}
+	.cards_info_4 {
+		flex-direction: column;
+	}
+	.card_1_info_4 {
+		width: inherit;
 	}
 }	
