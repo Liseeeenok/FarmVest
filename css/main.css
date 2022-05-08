@@ -3,6 +3,9 @@ body {
 	padding: 0;
 	position: relative;
 	max-width: 1920px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
@@ -26,8 +29,11 @@ body {
 }
 
 .title {
+	text-decoration: none;
+	color: #000;
 	font-size: 2vw;
 	font-family: 'Lato', sans-serif;
+	z-index: 1000;
 }
 
 .menu {
@@ -43,7 +49,17 @@ body {
 	margin-right: 2.3vw;
 }
 
-.link:last-child {
+.link_sign {
+	text-decoration: none;
+	color: #000;
+}
+
+.link_get {
+	text-decoration: none;
+	color: #fff;
+}
+
+.link:last-child, {
 	margin-right: 0;
 }
 
@@ -62,6 +78,10 @@ body {
 	display: block;
 }
 
+.authorization {
+	display: flex;
+	justify-content: space-between;
+}
 
 .sign {
 	font-family: 'Lato', sans-serif;
@@ -71,6 +91,18 @@ body {
 	font-size: 1vw;
 	margin: 0 0.83vw 0 0;
 	border: 1px solid #000;
+	border-radius: 10px;
+	color: #000;
+}
+
+.user {
+	font-family: 'Lato', sans-serif;
+	width: 7.4vw;
+	height: 4vw;
+	background-color: #fff;
+	font-size: 1.5vw;
+	margin: 0 1.5vw 0 0;
+	border: 1px solid #fff;
 	border-radius: 10px;
 	color: #000;
 }
@@ -99,6 +131,7 @@ body {
 	height: 31vw;
 	border: 1px solid #008000;
 	border-radius: 50%;
+	z-index: 31;
 }
 
 .circle2 {
@@ -109,6 +142,7 @@ body {
 	height: 31vw;
 	border: 1px solid #008000;
 	border-radius: 50%;
+	z-index: 31;
 }
 
 .intro {
@@ -117,12 +151,14 @@ body {
 }
 
 .intro_logo {
+	position: relative;
 	max-width: 923px;
 	margin: 0 auto;
 	font-size: 3.64vw;
 	font-weight: bold;
 	line-height: 4vw;
 	padding-top: 7vw;
+	z-index: 20;
 }
 
 .invest {
@@ -144,7 +180,7 @@ body {
 	justify-content: center;
 }
 
-.email {
+.email,.email_php {
 	width: 26vw;
 	padding-left: 25px;
 	font-family: 'Spartan', sans-serif;
@@ -159,7 +195,7 @@ body {
 	border: 2px solid #e9ebeb;
 }
 
-.email::-webkit-input-placeholder {
+.email::-webkit-input-placeholder,.email_php::-webkit-input-placeholder {
 	color:#000;
 	opacity: 100%;
 }
@@ -177,8 +213,11 @@ body {
 	margin-left: 18.75vw;
 }
 
+
+
 .container2 {
 	max-width: 1420px;
+	min-height: 30vh;
 	margin: 0 auto;
 }
 
@@ -290,6 +329,7 @@ body {
 	margin-top: 10.42vw;
 	display: flex;
 	justify-content: space-between;
+	height: 50.02vw;
 }
 
 .image_2 {
@@ -334,38 +374,32 @@ body {
 	margin-bottom: 1.25vw;
 }
 
-.akkor_2::-webkit-details-marker{display:none;}
-.akkor_2::-moz-list-bullet{list-style-type:none;}
-.akkor_2::marker{display:none;} 
 .akkor_2,.akkor_3 {
 	padding: 1.6vw 0;
 	padding-left: 1.6vw;
 	font-family: 'Spartan', sans-serif;
-    display:block;
-    font-size: 1.25vw;
-    cursor: pointer;
-    position: relative;
+  display:block;
+  font-size: 1.25vw;
+  cursor: pointer;
+  position: relative;
 }
 
-/*.akkor_2:before,.akkor_3:before {
-  right: 1.72vw;
-  background: url("image/vector.png");
-  width: 1.25vw;
-  height: 1.25vw;  
-  content: "";
+.akkor_p {
+  color: #000;
   position: absolute;
-  transition: transform .5s;
-}*/
-.img_akkor {
-	width: 2vw;
-	height: 2vw;
-	position: absolute;
-	right: 14.32vw;
-	margin-top: 1.3vw;
+  top: 50%;
+  right: 1vw;
+  font-size: 30px;
+  transform: translateY(-50%);
+  z-index: 15;
 }
 
 .akkor_3 {
 	margin: 0 0 0 0;
+}
+
+.akkor_1:last-child {
+	margin-bottom: 10.42vw;
 }
 
 .regular_2 {
@@ -375,7 +409,6 @@ body {
 }
 
 .card_3 {
-	margin-top: 10.42vw;
 	display: flex;
 	justify-content: space-between;
 }
@@ -542,8 +575,6 @@ body {
 	border-radius: 20px;
 	overflow: hidden;
 	height: 19.27vw;
-
-
 }
 
 .download {
@@ -731,6 +762,77 @@ body {
 	display: block;
 }
 
+.registration_php {
+	margin-top: 4vw;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.email_php {
+	width: 100%;
+}
+
+.username {
+
+	width: 100%;
+	padding-left: 25px;
+	font-family: 'Spartan', sans-serif;
+	font-size: 1vw;
+	height: 3.65vw;
+	border-color: #e9ebeb;
+	background-color: #e9ebeb;
+	border-radius: 10px;
+	opacity:  100%;	
+	outline: 0;
+	box-shadow: none;
+	border: 2px solid #e9ebeb;
+	margin-bottom: 2vw;
+}
+
+.username::-webkit-input-placeholder {
+	color:#000;
+	opacity: 100%;
+}
+
+.password {
+	width: 100%;
+	padding-left: 25px;
+	font-family: 'Spartan', sans-serif;
+	font-size: 1vw;
+	height: 3.65vw;
+	border-color: #e9ebeb;
+	background-color: #e9ebeb;
+	border-radius: 10px;
+	opacity:  100%;	
+	outline: 0;
+	box-shadow: none;
+	border: 2px solid #e9ebeb;
+	margin-top: 2vw;
+}
+
+.password::-webkit-input-placeholder {
+	color:#000;
+	opacity: 100%;
+}
+
+.otpr {
+	font-family: 'Spartan', sans-serif;
+	font-size: 1vw;
+	width: 8.5vw;
+	height: 3.33vw;
+	border: 1px solid #008000;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #008000;
+	margin: auto;
+	margin-top: 2vw;
+}
+
+.burger {
+	display: none;
+}
+
 @media (max-width: 1920px) {
 	.container {
 		margin-left: 8%;
@@ -749,10 +851,100 @@ body {
 
 }
 
-@media (max-width: 767px) {
-	.circle {
-		wi
+@media (max-width: 769px) {
+	body.lock {
+		overflow: hidden;
 	}
+	.burger span {
+		content: '';
+		background-color: #000;
+		position: absolute;
+		width: 100%;
+		height: 0.7vw;
+		top: 2.25vw;
+		}
+	.burger {
+		display: block;
+		position: relative;
+		height: 5vw;
+		width: 9vw;
+		z-index: 31;
+	}
+	.burger:before,.burger:after {
+		content: '';
+		background-color: #000;
+		position: absolute;
+		width: 100%;
+		height: 0.7vw;
+	}
+	.burger:before {
+		top: 0;
+	}
+	.burger:after {
+		bottom: 0;
+	}
+	.circle {
+		margin-left: -7vw;
+    margin-top: -31vw;
+    width: 40vw;
+    height: 40vw;
+	}
+	.circle2 {
+		margin-left: -12vw;
+    margin-top: -28vw;
+    width: 40vw;
+    height: 40vw;
+	}
+	.title {
+		font-size: 6vw;
+	}
+
+	.menu {
+		overflow: auto;
+		display: flex;
+		position: fixed;
+		font-size: 6vw;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		z-index: 30;
+		padding-top: 20vw;
+		text-align: center;
+		flex-direction: column;
+		transform: translateY(-200vw);
+		transition: all 0.3s ease 0s;
+	}
+	.menu.active {
+		transform: translateY(0);
+	}
+	.link {
+		margin-top: 6vw;
+	}
+	.authorization {
+		margin: 170vw 0 0 0;
+		position: fixed;
+		z-index: 31;
+		justify-content: space-between;
+		transform: translateY(-200vw);
+		transition: all 0.3s ease 0s;
+	}
+	.authorization.active {
+		transform: translateY(0);
+	}
+	.sign {
+		font-size: 6vw;
+		width: 38vw;
+    height: 14vw;
+	}
+	.get {
+		font-size: 6vw;
+		width: 38vw;
+    height: 14vw;
+    margin-left: 10vw;
+	}
+
 	.intro_logo {
 	font-size: 10vw;
 	font-weight: bold;
@@ -833,7 +1025,7 @@ body {
 		width: inherit;
 		text-align: center;
 		margin-top: 2vw;
-		line-height: 8.5vw;
+		line-height: 9vw;
 	}
 	.main_info_2 {
 		width: inherit;
