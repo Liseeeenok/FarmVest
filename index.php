@@ -1,15 +1,18 @@
 <?php require_once "blocks/header.php"; ?>
+<?php
+	require_once('admin/php_admin/give_arr_card.php');
+?>
 <header class="header" id="header">
 	<div class="container">
 		<div class="intro" id="intro">
 			<div class="intro_logo">
-				The easiest and fastest <br>way to <span class="invest">Invest</span> in <br>Agriculture
+				<?=$arr_intro['main_intro'];?>
 			</div>
 			<div class="description_intro">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
+				<?=$arr_intro['description_intro'];?>
 			</div>
 		</div>
-		<div class="get_email">
+		<div class="get_email" style="<?php if(isset($_SESSION['user'])) echo('display: none;')?>">
 			<input type="email" class="email" id="email" placeholder="Enter your email" name="email">
 			<button class="get2">Get Started</button>
 		</div>				
@@ -26,35 +29,39 @@
 		</div>
 		<div class="card_1" id="card_1">
 			<div class="info_1">
-				<div class="head_info_1">How <span class="invest">Farm Vest</span> Works</div>
-				<div class="main_info_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</div>
+				<div class="head_info_1">
+					<?=$arr_card_1['main_intro'];?>
+				</div>
+				<div class="main_info_1">
+					<?=$arr_card_1['description_intro'];?>
+				</div>
 				<div class="cards_info_1">
 					<div class="card_1_info_1">
 						<img src="css/image/phone.png" alt="" class="phone_1">
 						<div class="text">
-							<span class="bold">Download FarmVest</span>
-							<span class="regular">Start by downloading FarmVest app on your Android or IOS</span>
+							<span class="bold"><?=$arr_card_1['title_1'];?></span>
+							<span class="regular"><?=$arr_card_1['description_1'];?></span>
 						</div>
 					</div>
 					<div class="card_1_info_1">
 						<img src="css/image/human.png" alt="" class="phone_1">
 						<div class="text">
-							<span class="bold">Create account</span>
-							<span class="regular">Start by downloading FarmVest app on your Android or IOS</span>
+							<span class="bold"><?=$arr_card_1['title_2'];?></span>
+							<span class="regular"><?=$arr_card_1['description_2'];?></span>
 						</div>
 					</div>
 					<div class="card_1_info_1">
 						<img src="css/image/home.png" alt="" class="phone_1">
 						<div class="text">
-							<span class="bold">Link your bank account</span>
-							<span class="regular">Start by downloading FarmVest app on your Android or IOS</span>
+							<span class="bold"><?=$arr_card_1['title_3'];?></span>
+							<span class="regular"><?=$arr_card_1['description_3'];?></span>
 						</div>
 					</div>
 					<div class="card_1_info_1">
 						<img src="css/image/dol.png" alt="Упс" class="phone_1">
 						<div class="text">
-							<span class="bold">Start Investing</span>
-							<span class="regular">Start by downloading FarmVest app on your Android or IOS</span>
+							<span class="bold"><?=$arr_card_1['title_4'];?></span>
+							<span class="regular"><?=$arr_card_1['description_4'];?></span>
 						</div>
 					</div>
 				</div>
@@ -68,44 +75,52 @@
 				<img src="images/Human_2.png" alt="Упс" class="Human_2">
 			</div>
 				<div class="info_2">
-				<div class="head_info_2">Your <span class="invest">pathway</span> to Future Investment</div>
-				<div class="main_info_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</div>
+				<div class="head_info_2">
+					<?=$arr_card_2['main_intro'];?>
+				</div>
+				<div class="main_info_2">
+					<?=$arr_card_2['description_intro'];?>
+				</div>
 				<div class="card_1_info_2">
 					<details class="akkor_1" id="ac_1">
-    					<summary class="akkor_2">What is FarmVest?<span class="akkor_p" id="ac_p_1">+</span></summary>
-    					<p class="regular_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</p>
+    					<summary class="akkor_2"><?=$arr_card_2['title_1'];?><span class="akkor_p" id="ac_p_1">+</span></summary>
+    					<p class="regular_2"><?=$arr_card_2['description_1'];?></p>
 					</details>
 					<details class="akkor_1" id="ac_2">
-    					<summary class="akkor_3">How safe is FarmVest<span class="akkor_p" id="ac_p_2">+</span></summary>
-    					<p class="regular_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</p>
+    					<summary class="akkor_3"><?=$arr_card_2['title_2'];?><span class="akkor_p" id="ac_p_2">+</span></summary>
+    					<p class="regular_2"><?=$arr_card_2['description_2'];?></p>
 					</details>
 					<details class="akkor_1" id="ac_3">
-    					<summary class="akkor_3">What do I gain from using FarmVest?<span class="akkor_p" id="ac_p_3">+</span></summary>
-    					<p class="regular_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</p>
+    					<summary class="akkor_3"><?=$arr_card_2['title_3'];?><span class="akkor_p" id="ac_p_3">+</span></summary>
+    					<p class="regular_2"><?=$arr_card_2['description_3'];?></p>
 					</details>
 				</div>
 			</div>
 		</div>
 		<div class="card_3" id="card_3">
 			<div class="info_3" id="info_3">
-				<div class="head_info_3">Why choose <span class="invest">FarmVest</span></div>
-				<div class="main_info_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac</div>
+				<div class="head_info_3">
+					<?=$arr_card_3['main_intro'];?>
+				</div>
+				<div class="main_info_3">
+					<?=$arr_card_3['description_intro'];?>
+				</div>
 				<div class="cards_info_3">
 					<div class="card_1_info_3">
 						<div class="number">1</div>
-						<div class="text_2">Real-time Checkup</div>
+						<div class="text_2"><?=$arr_card_3['title_1'];?></div>
 					</div>
 					<div class="card_1_info_3">
 						<div class="number">2</div>
-						<div class="text_2">Flexibility in Investment</div>
+						<div class="text_2"><?=$arr_card_3['title_2'];?></div>
 					</div>
 					<div class="card_1_info_3">
 						<div class="number">3</div>
-						<div class="text_2">Encrypted and Secured</div>
+						<div class="text_2"><?=$arr_card_3['title_3'];?></div>
 					</div>
 					<div class="card_1_info_3">
 						<div class="number">4</div>
-						<div class="text_2">Withdraw Anytime</div>
+						<div class="text_2"><?=$arr_card_3['title_4'];?></div>
 					</div>
 				</div>
 				<div class="learn_2">
@@ -118,27 +133,27 @@
 		</div>
 		<div class="card_4" id="card_4">
 			<div class="info_4" id="info_4">
-				<div class="head_info_4">What <span class="invest">Customers</span> have to say</div>
-				<div class="main_info_4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac</div>
-			</div>
-			<div class="cards_info_4">
-				<div class="card_1_info_4">
-					<img src="images/Human_4.png" alt="" class="Human_4">
-					<div class="text_4">
-						<span class="regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac</span>
-						<span class="signature">Tonia Smart</span>
-					</div>
+				<div class="head_info_4">
+					<?=$arr_comments['main_intro'];?>
 				</div>
-				<div class="card_1_info_4">
-					<img src="images/Human_5.png" alt="" class="Human_4">
-					<div class="text_4">
-						<span class="regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac</span>
-						<span class="signature">Tonia Smart</span>
-					</div>
+				<div class="main_info_4">
+					<?=$arr_comments['description_intro'];?>
+				</div>
+			</div>
+			<div class="slideshow-container" id="slid">
+				<div class="cards_info_4" id="track">
+				<?php
+					$query = "SELECT * from `comments` WHERE condit = '1'";
+					$result = mysqli_query($conn, $query);
+					while($arr = mysqli_fetch_assoc($result)) {
+						require('php/comment.php');
+					}
+				?>	
 				</div>
 			</div>
 			<div class="view_all">
-				<button class="learn">View All</button>
+				<button class="learn" id="btn_prev">Previous</button>
+				<button class="learn" style="margin-left: 1vw;" id="btn_next">Next</button>
 			</div>
 		</div>
 		<div class="card_5">

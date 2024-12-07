@@ -10,7 +10,6 @@
 	if (mysqli_num_rows($check_user) > 0) {
 		$user = mysqli_fetch_assoc($check_user);
 		$_SESSION['user'] = ["name" => $user['Name'], "level" => $user['Level']];
-		echo $_SESSION['user']['name'];
 		header('Location: index.php');
 	} else {
 		$_SESSION['msg'] = 'Неправильные имя пользователя или пароль';

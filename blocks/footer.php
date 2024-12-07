@@ -10,7 +10,7 @@
 						<span class="regular">High level experience in web design and development knowledge, producing quality work.</span>
 				</div>
 		   	</div>
-			<div class="subscribe">
+			<div class="subscribe" style="<?php if(isset($_SESSION['user'])) echo('display: none;')?>">
 				<div class="text_subscribe">
 					<span class="regular">Subscribe to stay tuned for new web design and latest updates. Let's do it!</span>
 				</div>

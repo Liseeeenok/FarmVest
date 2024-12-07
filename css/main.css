@@ -1,8 +1,12 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	max-width: 1920px;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -152,7 +156,7 @@ body {
 
 .intro_logo {
 	position: relative;
-	max-width: 923px;
+	max-width: 48vw;
 	margin: 0 auto;
 	font-size: 3.64vw;
 	font-weight: bold;
@@ -470,6 +474,10 @@ body {
 	background-color: #008000;
 }
 
+.learn:disabled {
+	background-color: #3c493c;
+}
+
 .image_3 {
 	width: 47.89%;
 }
@@ -498,23 +506,31 @@ body {
 	margin-top: 1.67vw;
 }
 
+.slideshow-container {
+	overflow: hidden;
+	margin-top: 2.5vw;
+	margin-bottom: 2.5vw;
+}
+
 .cards_info_4 {
 	display: flex;
-	justify-content: space-between;
-	margin-top: 2.5vw;
+	transition: 0.4s;
 }
 
 .card_1_info_4 {
 	background-color: #f2f9f2;
-	width: 48.31%;
+	min-width: 48.31%;
 	display: flex;
 	justify-content: flex-start;
-	margin-bottom: 2.5vw;
 	border-radius: 20px;
+	margin: 0 0.845%;
+	height: 20vw;
 }
 
+
 .Human_4 {
-	width: 44.02%;
+	width: 45%;
+	height: 100%;
 	border-radius: 20px 0px 0px 20px;
 }
 
@@ -538,6 +554,7 @@ body {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 10.42vw;
+	width: 100%;
 }
 
 
@@ -913,7 +930,7 @@ body {
 		padding-top: 20vw;
 		text-align: center;
 		flex-direction: column;
-		transform: translateY(-200vw);
+		transform: translateY(-100%);
 		transition: all 0.3s ease 0s;
 	}
 	.menu.active {
@@ -927,7 +944,7 @@ body {
 		position: fixed;
 		z-index: 31;
 		justify-content: space-between;
-		transform: translateY(-200vw);
+		transform: translateY(-300vw);
 		transition: all 0.3s ease 0s;
 	}
 	.authorization.active {
@@ -1008,6 +1025,7 @@ body {
 	}
 	.card_2 {
 		flex-direction:  column;
+		height: 130vw;
 	}
 	.image_2 {
 		width: inherit;
@@ -1051,6 +1069,7 @@ body {
 	}
 	.card_3 {
 		flex-direction: column-reverse;
+		margin-top: 8vw;
 	}
 	.image_3 {
 		width: inherit;
@@ -1101,5 +1120,10 @@ body {
 	}
 	.card_1_info_4 {
 		width: inherit;
+	}
+	.user {
+	width: 38vw;
+	height: 14vw;
+	font-size: 6vw;
 	}
 }	
